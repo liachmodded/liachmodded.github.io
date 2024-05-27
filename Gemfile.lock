@@ -79,9 +79,6 @@ GEM
     wdm (0.1.1)
     webrick (1.8.1)
 
-PLATFORMS
-  x64-mingw-ucrt
-
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.3)
