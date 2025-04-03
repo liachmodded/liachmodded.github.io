@@ -86,3 +86,21 @@ Java 语言定义（Java Language Specification）第四章定义了 Java 语言
 为了方便 reflect 提供了一个代理工具，允许提供一个类加载器和一个接口列表，返回一个实现全部接口，类由指定类加载器加载的代理实例。代理的工厂方法还接收一个处理器，所有代理对象的呼叫（包括所有继承的抽象与非抽象接口方法和`Object`的`equals`、`hashCode`、`toString`方法）都会转到处理器。
 
 这个工具过去常用于实现 AOP，现在推荐能编译时预处理可以考虑编译时预处理。它所有方法都要转到处理器，对 JIT 编译采样及其不友好，所以性能不堪入目；现在有新的类文件接口，条件允许可以生成自己的高性能动态类替代。
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="liachmodded/liachmodded.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkxMTU2NzU0Mjc="
+        data-category="Announcements"
+        data-category-id="DIC_kwDOBuURI84CfnKT"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="0"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
